@@ -57,7 +57,7 @@ window.addEventListener('scroll', () => {
     const subject = `Message from ${name} via BECA Professionals`;
     const body = `Name: ${name}\nEmail: ${email}\n\n${message}`;
 
-    const mailtoLink = `mailto:info@becaprofessionals.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:becaprofessionals@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
     window.location.href = mailtoLink;
 
